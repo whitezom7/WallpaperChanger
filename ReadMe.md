@@ -28,6 +28,7 @@ To run the Wallpaper Changer program, follow these steps:
 - `Query`: Specify the search query for wallpapers (e.g., "nature", "space", "cars").
 - `ApiKey`: Set your Wallhaven API key obtained in step 3.
 - `PurityLevel`: Choose the purity level for the wallpapers ("sfw", "sketchy", "nsfw").
+- `ScreenResolution`: Choose the Screen Resolution for the wallpapers ("1280x720", "1920x1080", "2560x1440").
 - `KeyBind`: Define the key combination to trigger wallpaper change (e.g., "ctrl+shift+c").
 
 Save the `config.py` file after defining the variables.
