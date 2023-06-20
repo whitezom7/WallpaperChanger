@@ -4,7 +4,7 @@ import requests
 from PIL import Image
 import ctypes
 import keyboard
-from config import Query, ApiKey, PurityLevel, KeyBind
+from config import Query, ApiKey, PurityLevel, KeyBind, ScreenResolution
 
 
 
@@ -23,7 +23,7 @@ def main():
     print("Voila! Your desktop wallpaper has been changed to " + Query)
 
 def get_random_wallpaper_url():
-    api_url = "https://wallhaven.cc/api/v1/search?sorting=random&apikey=" + ApiKey + "&purity=" + PurityLevel + "&q=" + Query
+    api_url = "https://wallhaven.cc/api/v1/search?sorting=random&apikey=" + ApiKey + "&purity=" + PurityLevel + "&q=" + Query + "&resolutions=" + ScreenResolution
 
     response = requests.get(api_url)
     data = response.json()

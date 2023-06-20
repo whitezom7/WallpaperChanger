@@ -8,5 +8,8 @@ Query=""
 # NSFW requires a valid API key, ( Etc "100" is SFW, "010" is Sketchy, "001" is NSFW)
 PurityLevel="" 
 
+# Set Minimum resolution allowed for images, Default is 1920x1080
+ScreenResolution = "1920x1080"
+
 # Default is ctrl+alt+w, use https://github.com/boppreh/keyboard#api to see all different key names
 KeyBind="ctrl+alt+w" 
