@@ -17,7 +17,7 @@ To run the Wallpaper Changer program, follow these steps:
 
 2. Install the required packages: Open a terminal or command prompt and navigate to the directory containing the program files. Run the following command to install the necessary packages:
   
-  pip install requests pillow keyboard
+  ```pip install requests pillow keyboard```
 
 3. Obtain a Wallhaven API key: Visit the [Wallhaven API](https://wallhaven.cc/help/api) page and follow the instructions to obtain an API key. Note down the API key for later use.
 
@@ -37,7 +37,7 @@ Save the `config.py` file after defining the variables.
 
 1. Run the program: Open a terminal or command prompt and navigate to the directory containing the program files. Run the following command to execute the program:
 
-  python main.py
+  ```python main.py```
 
 The program will start running and retrieve a random wallpaper from the Wallhaven API. It will then download and set the downloaded image as your desktop wallpaper.
 
